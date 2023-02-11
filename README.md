@@ -36,26 +36,26 @@ Installation
 
 3.  Active virtual env
 
-For Linux/Mac
+-For Linux/Mac
 
 `source ./env/bin/activate`
 
-For Windows
+-For Windows
 
 `.env\Scripts\activate`
 
 4.  Install the required packages
+
 `pip install -r requirements.txt`
 
-4.  Apply the migrations
+5.  Apply the migrations
 
 `
 python manage.py migrate
 `
 
-5.  Run the development server
+6.  Run the development server
 
-Copy code
 
 `python manage.py runserver`
 
