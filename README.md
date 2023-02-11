@@ -28,9 +28,10 @@ Installation
 
 `git clone https://github.com/<username>/drf-project.git`
 
-2.  Change into the project directory
+2.  Change into the project directory and create python virtual env
 
 `cd drf-project`
+`python -m venv env`
 
 3.  Install the required packages
 
