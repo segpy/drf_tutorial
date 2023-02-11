@@ -19,52 +19,57 @@ Requirements
 -   Django (3.1+)
 -   Django Rest Framework (3.12+)
 
+A simple project to get you started with the Django Rest Framework (DRF). This project includes a basic configuration of DRF with a single endpoint.
+
+Requirements
+------------
+
+-   Python 3.6+
+-   Virtual Environment
+
+Virtual Environment Configuration
+---------------------------------
+
+It is recommended to use a virtual environment to keep your dependencies isolated. To create and activate a virtual environment:
+
+
+```shell
+$ python3 -m venv venv
+$ source venv/bin/activate
+```
+
 Installation
 ------------
 
-1.  Clone the repository to your local machine
+To install the required dependencies, run:
+
+```ruby
+$ pip install -r requirements.txt
+```
+
+Configuration
+-------------
+
+The project includes a basic configuration for DRF. You can add your own settings and configure the project as per your requirements.
+
+Running the Project
+-------------------
+
+To run the project, execute the following commands:
 
 
 
-`git clone https://github.com/segpy/drf-project.git`
+```ruby
+$ python manage.py migrate
+$ python manage.py runserver
+```
 
-2.  Change into the project directory and create python virtual env
+The project will be available at <http://localhost:8000/> by default.
 
-`cd drf-project`
+Conclusion
+----------
 
-`python -m venv env`
-
-3.  Active virtual env
-
--   For Linux/Mac
-
-`source ./env/bin/activate`
-
--   For Windows
-
-`.env\Scripts\activate`
-
-4.  Install the required packages
-
-`pip install -r requirements.txt`
-
-5.  Apply the migrations
-
-`
-python manage.py migrate
-`
-
-6.  Run the development server
-
-
-`python manage.py runserver`
-
-Usage
------
-
-The project comes with a pre-built Django app with model, serializer, and views. You can use this as a starting point for your own project, or you can easily add new apps to the project and build out your own APIs.
-
-To access the API, go to `http://localhost:8000/api/` in your browser. You will see the DRF Browsable API, which provides a simple, human-readable interface for interacting with your API.
+This project is a starting point for building a RESTful API with DRF. You can build upon this project and add your own endpoints and functionality as per your requirements.
 
 Documentation
 -------------
