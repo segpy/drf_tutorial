@@ -36,11 +36,11 @@ Installation
 
 3.  Active virtual env
 
--For Linux/Mac
+-   For Linux/Mac
 
 `source ./env/bin/activate`
 
--For Windows
+-   For Windows
 
 `.env\Scripts\activate`
 
