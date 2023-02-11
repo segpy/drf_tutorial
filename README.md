@@ -34,8 +34,13 @@ Installation
 
 `python -m venv env`
 
-3.  Install the required packages
+3.  Active virtual env
+For Linux/Mac
+`source ./env/bin/activate`
+For Windows
+`.env\Scripts\activate`
 
+4.  Install the required packages
 `pip install -r requirements.txt`
 
 4.  Apply the migrations
