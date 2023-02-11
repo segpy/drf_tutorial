@@ -26,7 +26,7 @@ Installation
 
 
 
-`git clone https://github.com/<username>/drf-project.git`
+`git clone https://github.com/segpy/drf-project.git`
 
 2.  Change into the project directory and create python virtual env
 
